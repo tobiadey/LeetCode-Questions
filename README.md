@@ -1,5 +1,4 @@
-# LeetCode-Questions
-# Forever Updating list of leet code questions I solve.
+# Updating list of LeetCode I've solved.
 
 
 ### **Array**
