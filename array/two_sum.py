@@ -14,11 +14,11 @@ def two_sum_old(nums,_target):
     two_sum: list, target -> list
     '''
     # find the correct indexes
-    for x, val1 in enumerate(nums):
+    for _x, val1 in enumerate(nums):
         # only check after x as we've seen all values before x previously
-        for y, val2 in enumerate(nums):
-            if val1 + val2 == _target and x!=y:
-                return [x,y]
+        for _y, val2 in enumerate(nums):
+            if val1 + val2 == _target and _x!=_y:
+                return [_x,_y]
 
 
 # Hash Map - Time: O(n) and Space: O(1)

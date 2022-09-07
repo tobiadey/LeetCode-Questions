@@ -3,6 +3,8 @@ maximum_subarray - Given an integer array nums,
 find the contiguous subarray (containing at least one number)
 which has the largest sum and return its sum.
 
+check if half of array is sorted in order to find pivot,
+arr is guaranteed to be in at most two sorted subarrays
 '''
 
 # Time: O(n) and Space: O(1)
