@@ -4,7 +4,17 @@ return all the triplets such that
 i != j, i != k, and j != k,
 and nums[i] + nums[j] + nums[k] == 0.
 
+Hashmap- Loop through array and perform 2 sum on all possible values.
+Apeending results(sorted) to a set to avoid duplicates.
 
+Try next using pointers over hashmap:
+sort input,
+for each first element,
+find next two where -a = b+c,
+if a=prevA, skip a, if b=prevB
+skip b to elim duplicates;
+to find b,c use two pointers,
+left/right on remaining list;
 '''
 
 
