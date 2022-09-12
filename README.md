@@ -7,22 +7,22 @@
 - [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) - **find local min and search for local max, sliding window;**
 - [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) - **sets operation then compare lengths**
 - [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) - **make two passes, first in order, second in reverse, to compute products. (you will need the prefix & suffix to compute these values)**
-- [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) - brute force approach where you find each possible sub array or sliding window approach where you make sure currSum doesn’t go below 0 while looping through array.
-- [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) - brute force approach where you find each possible subarray or dynamic programming problem, keeping track of max and min product O(n) time & O(1) space.
-- [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) - binary search determine if you’re in the lhs or rhs of the sorted sub array O(logn) time
-- [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) - binary search determine if you’re in the lhs or rhs and handle them
-- [3 Sum](https://leetcode.com/problems/3sum/) - one loop and perform 2 sum
-- [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) - use pointers favouring the biggest height O(n) time
+- [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) -** brute force approach where you find each possible sub array or sliding window approach where you make sure currSum doesn’t go below 0 while looping through array.**
+- [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) - **brute force approach where you find each possible subarray or dynamic programming problem, keeping track of max and min product O(n) time & O(1) space.**
+- [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) - **binary search determine if you’re in the lhs or rhs of the sorted sub array O(logn) time**
+- [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) - **binary search determine if you’re in the lhs or rhs and handle them**
+- [3 Sum](https://leetcode.com/problems/3sum/) - **one loop and perform 2 sum**
+- [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) - **use pointers favouring the biggest height O(n) time**
 
 ---
 
 ### **Binary**
 
-- [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) - add bit by bit, be mindful of carry, after adding, if carry is still 1, then add it as well;
-- [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) - modulo, and dividing n; mod and div are expensive, to divide use bit shift, instead of mod to get 1's place use bitwise & 1;
-- [Counting Bits](https://leetcode.com/problems/counting-bits/) - write out result for num=16 to figure out pattern; res[i] = res[i - offset], where offset is the biggest power of 2 <= I;
-- [Missing Number](https://leetcode.com/problems/missing-number/) - compute expected sum - real sum; xor n with each index and value;
-- [Reverse Bits](https://leetcode.com/problems/reverse-bits/) - reverse each of 32 bits;
+- [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) - **add bit by bit, be mindful of carry, after adding, if carry is still 1, then add it as well;**
+- [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) - **modulo, and dividing n; mod and div are expensive, to divide use bit shift, instead of mod to get 1's place use bitwise & 1;**
+- [Counting Bits](https://leetcode.com/problems/counting-bits/) - **write out result for num=16 to figure out pattern; res[i] = res[i - offset], where offset is the biggest power of 2 <= I;**
+- [Missing Number](https://leetcode.com/problems/missing-number/) - **compute expected sum - real sum; xor n with each index and value;**
+- [Reverse Bits](https://leetcode.com/problems/reverse-bits/) - **reverse each of 32 bits;**
 ---
 
 ### **Dynamic Programming**
