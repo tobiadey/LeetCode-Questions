@@ -18,12 +18,11 @@
 
 ### **Binary**
 
-- [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
-- [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
-- [Counting Bits](https://leetcode.com/problems/counting-bits/)
-- [Missing Number](https://leetcode.com/problems/missing-number/)
-- [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
-
+- [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) - add bit by bit, be mindful of carry, after adding, if carry is still 1, then add it as well;
+- [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) - modulo, and dividing n; mod and div are expensive, to divide use bit shift, instead of mod to get 1's place use bitwise & 1;
+- [Counting Bits](https://leetcode.com/problems/counting-bits/) - write out result for num=16 to figure out pattern; res[i] = res[i - offset], where offset is the biggest power of 2 <= I;
+- [Missing Number](https://leetcode.com/problems/missing-number/) - compute expected sum - real sum; xor n with each index and value;
+- [Reverse Bits](https://leetcode.com/problems/reverse-bits/) - reverse each of 32 bits;
 ---
 
 ### **Dynamic Programming**
