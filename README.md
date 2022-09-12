@@ -7,7 +7,7 @@
 - [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) - **find local min and search for local max, sliding window;**
 - [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) - **sets operation then compare lengths**
 - [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) - **make two passes, first in order, second in reverse, to compute products. (you will need the prefix & suffix to compute these values)**
-- [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) -** brute force approach where you find each possible sub array or sliding window approach where you make sure currSum doesn’t go below 0 while looping through array.**
+- [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) - **brute force approach where you find each possible sub array or sliding window approach where you make sure currSum doesn’t go below 0 while looping through array.**
 - [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) - **brute force approach where you find each possible subarray or dynamic programming problem, keeping track of max and min product O(n) time & O(1) space.**
 - [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) - **binary search determine if you’re in the lhs or rhs of the sorted sub array O(logn) time**
 - [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) - **binary search determine if you’re in the lhs or rhs and handle them**
