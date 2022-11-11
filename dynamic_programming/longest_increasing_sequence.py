@@ -26,5 +26,5 @@ def lengthOfLIS(nums):  # O(n^2)
     
     return max(dp)
 
-n = 5
-print(climbStairs(n)) #output 8
+INPUT_LIST = [1,2,4,3] 
+print(lengthOfLIS(INPUT_LIST)) #output 3
