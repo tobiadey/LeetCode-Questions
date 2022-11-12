@@ -27,17 +27,17 @@
 
 ### **Dynamic Programming**
 
-- [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) 
-- [Coin Change](https://leetcode.com/problems/coin-change/)
-- [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
-- [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
-- [Word Break Problem](https://leetcode.com/problems/word-break/)
-- [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
-- [House Robber](https://leetcode.com/problems/house-robber/)
-- [House Robber II](https://leetcode.com/problems/house-robber-ii/)
-- [Decode Ways](https://leetcode.com/problems/decode-ways/)
-- [Unique Paths](https://leetcode.com/problems/unique-paths/)
-- [Jump Game](https://leetcode.com/problems/jump-game/)
+- [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)  - **Bottom-up approach. Compute for the last 2 which always have just […1,1] ways. Then work backwards by adding the dp[i+1] + dp[i+2]**
+- [Coin Change](https://leetcode.com/problems/coin-change/) - **Bottom-up approach(tabulation). Compute coins for amount 1→ n, then compare (amount-coin). Can also do it with a Top-down approach(memoization).**
+- [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) - **solve from RHS, as nums[-1] only has 1 subsequence use this to solve for the rest taking the max subsequence from DP[]**
+- [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) - **Bottom-up approach. Use 2d matrix e.g abc0 x abc0, and fill each index with values to allow matrix[0][0] hold the value. (if match move diagonally else move sideways right & down)**
+- [Word Break Problem](https://leetcode.com/problems/word-break/) - **desc**
+- [Combination Sum](https://leetcode.com/problems/combination-sum-iv/) - **desc**
+- [House Robber](https://leetcode.com/problems/house-robber/) - **DP problem, The last 2 houses have a sum of their actual value as they don't have adjacent houses that meet the requirement.**
+- [House Robber II](https://leetcode.com/problems/house-robber-ii/) - **desc**
+- [Decode Ways](https://leetcode.com/problems/decode-ways/) - **desc**
+- [Unique Paths](https://leetcode.com/problems/unique-paths/) - **desc**
+- [Jump Game](https://leetcode.com/problems/jump-game/) - **desc**
 
 ---
 
@@ -69,7 +69,7 @@
 - [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)
 - [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
 - [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
-- [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+- [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) - **Traverse both lists and create a new list while comparing value each node**
 - [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - [Reorder List](https://leetcode.com/problems/reorder-list/)
 

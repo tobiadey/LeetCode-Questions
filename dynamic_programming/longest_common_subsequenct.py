@@ -3,6 +3,9 @@ Bottom-up approach.
 Use 2d matrix e.g abc0 x abc0,  [a,b,c,0][a,b,c,0][0,0,0,0]
 Fill each index with values to allow matrix[0][0] hold the value. 
 (if match move diagonally else move sideways right & down)
+
+"abcde"  "ace"
+3
 '''
 
 
