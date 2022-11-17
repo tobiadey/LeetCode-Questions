@@ -30,4 +30,4 @@ def coinChange(coins, amount):
 
 INPUT_LIST = [1,2,5]
 K = 11
-print(max_sub_array(INPUT_LIST,K)) #output 3
+print(coinChange(INPUT_LIST,K)) #output 3

@@ -37,5 +37,5 @@ def searchMatrix(matrix,target):
 
 INPUT_LIST= [[1,3,5,7],[10,11,16,20],[23,30,34,60]]
 TARGET = 13
-print(getIntersectionNode(INPUT_LIST,TARGET)) #output False
+print(searchMatrix(INPUT_LIST,TARGET)) #output False
 
