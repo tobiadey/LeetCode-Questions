@@ -1,5 +1,5 @@
 # Updating list of LeetCode I've solved.
-
+[My note - Guide to LeetCoding ](https://www.notion.so/Guide-to-LeetCoding-cb32c9240fc74ef183be785c99ec3835)
 
 ### **Array**
 
@@ -31,13 +31,13 @@
 - [Coin Change](https://leetcode.com/problems/coin-change/) - **Bottom-up approach(tabulation). Compute coins for amount 1→ n, then compare (amount-coin). Can also do it with a Top-down approach(memoization).**
 - [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) - **solve from RHS, as nums[-1] only has 1 subsequence use this to solve for the rest taking the max subsequence from DP[]**
 - [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) - **Bottom-up approach. Use 2d matrix e.g abc0 x abc0, and fill each index with values to allow matrix[0][0] hold the value. (if match move diagonally else move sideways right & down)**
-- [Word Break Problem](https://leetcode.com/problems/word-break/) - **desc**
-- [Combination Sum](https://leetcode.com/problems/combination-sum-iv/) - **desc**
+- [Word Break Problem](https://leetcode.com/problems/word-break/) - **Bottom-up approach. Dp with the last value of True. Update dp[i] by checking if the range(s[i]:i+offset) can form a word in the word dictionary.**
+- [Combination Sum](https://leetcode.com/problems/combination-sum-iv/) - **Recursive backtracking with Decision Tree - find all combinations possible with arr[i] and without arr[i]**
 - [House Robber](https://leetcode.com/problems/house-robber/) - **DP problem, The last 2 houses have a sum of their actual value as they don't have adjacent houses that meet the requirement.**
-- [House Robber II](https://leetcode.com/problems/house-robber-ii/) - **desc**
-- [Decode Ways](https://leetcode.com/problems/decode-ways/) - **desc**
-- [Unique Paths](https://leetcode.com/problems/unique-paths/) - **desc**
-- [Jump Game](https://leetcode.com/problems/jump-game/) - **desc**
+- [House Robber II](https://leetcode.com/problems/house-robber-ii/) - **Perform house robberI on a slice of the arrays. arr1 = remove first index, arr2= remove last index, arr3= only first index**
+- [Decode Ways](https://leetcode.com/problems/decode-ways/) - **DFS + memoization. 2 decisions to be made at every step.**
+- [Unique Paths](https://leetcode.com/problems/unique-paths/) - **DFS + memoization. A more efficient way is to Iteratively calculate each row checking values at the bottom + right and then returning the row at 0. (bottom-up approach)**
+- [Jump Game](https://leetcode.com/problems/jump-game/) - **Iterate backwards to see if the index can reach the “end” variable. If so update the end variable to that position. If end == 0 then it was possible.**
 
 ---
 
@@ -66,7 +66,7 @@
 
 ### **Linked List**
 
-- [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)
+- [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)- **iterate through maintaining cur and prev; recursively reverse pointers. (return head)**
 - [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
 - [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) - **Traverse both lists and create a new list while comparing value each node**
@@ -126,4 +126,5 @@
 
 
 
-### **Extras**
+### **Extra Practice**
+- Subarray Equal to K - **use prefix sum**
